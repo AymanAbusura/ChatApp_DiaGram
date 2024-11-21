@@ -1,7 +1,4 @@
-import Detail from "./components/detail/Detail"
-import Chat from "./components/chat/Chat"
-import List from "./components/list/List"
-
+import { List, Chat, Detail } from "./components"
 
 function App() {
   return (
