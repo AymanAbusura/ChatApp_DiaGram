@@ -1,11 +1,19 @@
-import { List, Chat, Detail } from "./components"
+import { List, Chat, Detail, Login, Notification } from "./components"
 
 function App() {
+  const user = true;
+
   return (
     <div className='container'>
-      <List />
-      <Chat />
-      <Detail />
+      {user ? (
+        <>
+          <List />
+          <Chat />
+          <Detail />
+        </>
+      ) : (<Login />)}
+
+      <Notification />
     </div>
   )
 }
