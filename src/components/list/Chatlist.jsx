@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { avatar, search, plus, minus } from "../../assets"
+import AddUser from './AddUser'
 
 const Chatlist = () => {
   const [addMode, setAddMode] = useState(false)
@@ -44,6 +45,7 @@ const Chatlist = () => {
         </div>
       </div>
       
+      {addMode && <AddUser />}
     </div>
   )
 }

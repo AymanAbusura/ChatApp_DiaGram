@@ -12,7 +12,7 @@ const AddUser = () => {
                 <img src={avatar} alt="" />
                 <span>Ayman</span>
             </div>
-            <button>Add</button>
+            <button>Add User</button>
         </div>
     </div>
   )
